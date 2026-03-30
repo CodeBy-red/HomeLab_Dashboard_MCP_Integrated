@@ -92,7 +92,7 @@
  
  #### Client (aka. Application) Configuration
  
- 1. Create a client with **Client Authentication** enabled.
+ 1. Create a client with **Client Authentication** enabled. If you used the `realm-export.json`, you will already have the clients generated.
  2. **Authentication Flow**: Enable **Standard Flow** (some apps require **Direct Access** - check official docs).
  3. **PKCE Method**: Leave unselected unless documentation specifies S256 (SHA256).
  4. **URLs**:
@@ -126,7 +126,7 @@
  2. **Admin Settings Configuration**
     - Enable **New Sign-ups**
     - Enable **API** and set permissions for integrations and models.
-    - Recommended models for 24GB+ GPU minimum: `qwen3-coder:30B` or `qwen3.5:8b` (4-bit quantization minimum).
+    - Recommended models for 24GB+ GPU minimum: `qwen3-coder:30B` or `qwen3.5:9b` (4-bit quantization minimum).
  
  3. **Pull Additional Models**
     ```bash
