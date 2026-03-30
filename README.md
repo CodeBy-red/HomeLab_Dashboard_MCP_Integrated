@@ -41,7 +41,16 @@
  - 🎯 **Extremely Flexible** — Add, remove, or customize apps with minimal effort
  
  ---
- 
+ ## Getting Started
+
+1. `chmod +x launch_dashboard.sh`
+2. `./launch_dashboard.sh`
+3. Stick with default IP addresses, domains, ports and realm names until you know what you're doing.
+4. Unless you set a password during install, it will be available in the `docker-compose.yml`
+5. Remember to regenerate your **Client Secret** in Keycloak, copy it and paste it into the highlighted `docker-compose.yml` variables (`# <---- Insert from Keycloak`)
+
+---
+
  ## Post Installation Guide
  
  ### Certificates!
@@ -176,6 +185,8 @@
     style="width: 50%; max-width: 934px; height: auto;"
   />
 </div>
+
+ ---
  
  ## Considerations
  
@@ -227,6 +238,8 @@
     ```
     As a minimum.
 
+   ---
+
 **Project Gallery**
 
 <div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;">
@@ -262,6 +275,7 @@
   />
 </div>
 
+---
 
 ## License
 
