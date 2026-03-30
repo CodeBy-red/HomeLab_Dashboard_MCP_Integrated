@@ -662,17 +662,28 @@ ${OLLAMA_DEPLOY}
     container_name: ai-open-webui
     restart: unless-stopped
     environment:
-      OLLAMA_BASE_URL: http://ollama:11434
-      WEBUI_URL: https://${WEBUI_DOMAIN}
-      WEBUI_SECRET_KEY: ${OWUI_WEBUI_KEY}
-      OAUTH_CLIENT_SECRET: ${OWUI_SECRET}    # <---- Insert from Keycloak
-      OPENID_PROVIDER_URL: https://${KC_DOMAIN}/realms/${REALM_NAME}/.well-known/openid-configuration
-      OPENID_REDIRECT_URI: https://${WEBUI_DOMAIN}/oauth/oidc/callback
-      ENABLE_SIGNUP: "true"
-      CORS_ALLOW_ORIGIN: "https://${WEBUI_DOMAIN}"
-      USER_AGENT: "open-webui/${WEBUI_DOMAIN}"
-      HF_HUB_OFFLINE: "1"
-      TRANSFORMERS_OFFLINE: "1"
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - WEBUI_URL=https://webui.lan
+      - WEBUI_AUTH=true
+      - WEBUI_SECRET_KEY=62bfce2e6aee7f7b4064ae8efc6f13effafbdaae73e802e43c767aa7fe9a0bfb
+      - ENABLE_OAUTH_SIGNUP=true
+      - OAUTH_CLIENT_ID=open-webui
+      - OAUTH_PROVIDER_NAME=Keycloak
+      - OAUTH_CLIENT_SECRET=ObKXb3RInKaVcRz4AelpdmypAzE1NPXf    # <---- Insert from Keycloak
+      - OPENID_PROVIDER_URL=https://keycloak.lan/realms/team-realm/.well-known/openid-configuration
+      - OPENID_REDIRECT_URI=https://webui.lan/oauth/oidc/callback
+      - ENABLE_OAUTH_GROUP_MANAGEMENT=true
+      - ENABLE_OAUTH_GROUP_CREATION=true
+      - OAUTH_GROUP_CLAIM=groups
+      - SSL_CERT_FILE=/usr/local/share/ca-certificates/rootCA.crt
+      - OAUTH_TOKEN_ENDPOINT_AUTH_METHOD=client_secret_post
+      - ENABLE_FORWARD_USER_INFO_HEADERS=true
+      - ENABLE_SIGNUP=false    # <---- Set to false after initial sign-up
+      - CORS_ALLOW_ORIGIN=https://webui.lan
+      - USER_AGENT=open-webui/webui.lan
+      - HF_HUB_OFFLINE=1
+      - HF_TOKEN= #Leave empty
+      - TRANSFORMERS_OFFLINE=1
     volumes:
       - ${WORK_DIR}/openwebui-data:/app/backend/data
       - ${WORK_DIR}/certs/rootCA.crt:/usr/local/share/ca-certificates/rootCA.crt:ro
