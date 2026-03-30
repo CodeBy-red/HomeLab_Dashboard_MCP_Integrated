@@ -44,8 +44,9 @@
    ./launch_dashboard.sh
    ```
 7. Stick with default IP addresses, domains, ports and realm names until you know what you're doing.
-8. Unless you set a password during install, it will be available in the `docker-compose.yml`
-9. Remember to regenerate your **Client Secret** in Keycloak, copy it and paste it into the highlighted `docker-compose.yml` variables (`# <---- Insert from Keycloak`)
+8. Unless you set a password during install, it will be available in the `docker-compose.yml`.
+9. Remember to regenerate your **Client Secret** in Keycloak, copy it and paste it into the highlighted `docker-compose.yml` variables (`# <---- Insert from Keycloak`).
+10. Now navigate to the new `/Downloads/team-platform/` directory where you can begin configuring your ecosystem.
 
 ---
 
@@ -236,11 +237,20 @@
 **Project Gallery**
 
 ![Keycloak Login Example](./images/Keycloak.png)
+
 ![Demonstration of Open WebUI Calling MCP Tools](./images/WebUI_Capabilities.png)
+
 ![GitLab Login Page Demonstrating SSO Option](./images/GitLab_Login.png)
+
 ![GitLab HomePage](./images/GitLab_HomePage.png)
+
 ![Demonstration of NextCloud Features](./images/NextCloud_Kanban.png)
+
 ![Keycloak Config Settings for NextCloud](./images/NextCloud_Keycloak_Settings.png)
+
+![Portainer_Settings_for_OIDC](./images/Portainer_OIDC_Config.png)
+
+![Keycloak Config Settings for Portainer](./images/Keycloak_Config_for_Portainer.png)
 
 ---
 
