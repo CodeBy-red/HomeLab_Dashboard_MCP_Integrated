@@ -10,13 +10,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/The-Incredible-Gamma-Man/HomeLab_Dashboard_MCP_Integrated)
 ![GitHub forks](https://img.shields.io/github/forks/The-Incredible-Gamma-Man/HomeLab_Dashboard_MCP_Integrated)
 
-<div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;">
-  <img 
-    src="images/Homarr_Dashboard.png" 
-    alt="Homarr Dashboard" 
-    style="width: 100%; max-width: 1868px; height: auto;"
-  />
-</div>
+![Homarr Dashboard](./images/Homarr_Dashboard.png)
  
  ## Overview
  
@@ -182,13 +176,8 @@
  - Paste to the 'video streaming' item in Homarr's dashboard -> http://<ip:port>/memfs/<docker-id>.m3u8 | also found on Restreamer, under the cam channel, marked `HLS`
  - If the above fails, use an 'iframe' item in Homarr and paste the HTML link | found on Restreamer, inside the `Player` config options. NOT the iFrame link! Homarr manages that for you.
  - See example config:
-<div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;">
-  <img 
-    src="images/Restreamer_Settings.png" 
-    alt="Recommended Restreamer Settings" 
-    style="width: 50%; max-width: 934px; height: auto;"
-  />
-</div>
+   
+![Recommended Restreamer Settings](./images/Restreamer_Settings.png)
 
  ---
  
@@ -246,38 +235,12 @@
 
 **Project Gallery**
 
-<div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;">
-  <img 
-    src="images/Keycloak.png" 
-    alt="Keycloak Login Example" 
-    style="width: 75%; max-width: 1868px; height: auto;"
-  />
-   <img 
-    src="images/WebUI_Capabilities.png" 
-    alt="Demonstration of Open WebUI Calling MCP Tools" 
-    style="width: 75%; max-width: 1868px; height: auto;"
-  />
-   <img 
-    src="images/GitLab_Login.png" 
-    alt="GitLab Login Page Demonstrating SSO Option" 
-    style="width: 75%; max-width: 1868px; height: auto;"
-  />
-   <img 
-    src="images/GitLab_HomePage.png" 
-    alt="GitLab HomePage" 
-    style="width: 75%; max-width: 1868px; height: auto;"
-  />
-   <img 
-    src="images/NextCloud_Kanban.png" 
-    alt="Demonstration of NextCloud Features" 
-    style="width: 75%; max-width: 1868px; height: auto;"
-  />
-   <img 
-    src="images/NextCloud_Keycloak_Settings.png" 
-    alt="Keycloak Config Settings for NextCloud" 
-    style="width: 75%; max-width: 1868px; height: auto;"
-  />
-</div>
+![Keycloak Login Example](./images/Keycloak.png)
+![Demonstration of Open WebUI Calling MCP Tools](./images/WebUI_Capabilities.png)
+![GitLab Login Page Demonstrating SSO Option](./images/GitLab_Login.png)
+![GitLab HomePage](./images/GitLab_HomePage.png)
+![Demonstration of NextCloud Features](./images/NextCloud_Kanban.png)
+![Keycloak Config Settings for NextCloud](./images/NextCloud_Keycloak_Settings.png)
 
 ---
 
