@@ -261,3 +261,16 @@
     style="width: 75%; max-width: 1868px; height: auto;"
   />
 </div>
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE) - see the `LICENSE` file for full details.
+
+### AI Disclaimer
+
+Much of the content within the `launch_dashboard.sh` script was generated individually at different times with different hosts. Grok and Claude Sonnet were used to 
+assist orchestrating these elements together into one file, particularly for handling complex kernel-level and permissions issues, while also improving the script's
+runtime appearance and user experience.
+
+Every line has been carefully reviewed, edited and tested by the main contributor to ensure safety and correctness. Nothing was left unchecked.
