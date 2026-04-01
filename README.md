@@ -252,6 +252,16 @@
 
 ![Keycloak Config Settings for Portainer](./images/Keycloak_Config_for_Portainer.png)
 
+![Atlas Results Hierarchy Offline](./images/Hierarchy_Offline.png)
+
+![Atlas Results Subnet Offline](./images/Subnet_Offline.png)
+
+![Atlas Results Hosts Offline](./images/hosts_offline.png)
+
+![Atlas Results Hosts Web Connected](./images/Hosts_Web_Connected.png)
+
+![Atlas Results hosts web connected](./images/hosts_web_connected.png)
+
 ---
 
 ## License
